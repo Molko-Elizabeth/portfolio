@@ -1,29 +1,23 @@
-* {
+/* {
     margin: 0;
     padding: 0;
-	/*box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; VER SI ES EL EXCEDENTE INCOTTECTO;*/    
-}
+}*/
 
 body{
     font-family: 'Dancing Script', 'cursive';
     font-family: 'Pacifico','cursive';
     font-family: 'Pangolin', 'cursive';
-	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font: tomato;
-    background-color: black;
-    font-size: 16px;
+	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   /* font: tomato;*/
+    background-color: black;/*
+    font-size: 16px;*/
 	overflow: auto;
 }
-.contenedor {
-    width: 90%;
-    overflow: auto;
-}
 
-header .contenedor {
-    position: relative;
-    height: 700px;
+div.logo{
+    text-align:center;
+
 }
 
 header .menu {
@@ -45,93 +39,28 @@ header .menu a {
 	font-weight: bold;
 }
 
-
-
 header .menu a:hover {
-	background-color: #fff;
+	background-color:tomato;
+	color: black;
 	opacity: 1;
 	border-radius: 7px;
   }
-   
-/*  .menu a:hover :first-child {
-	transform: translateY(100%);
-  }
-   
-  .menu a:hover :last-child {
-	transform: none;
-  }*/
 
-.contenedor .nombre span {
-	font-weight: 300;
-	top: 50%;
-	position:relative; z-index:-10; top:0;
+ 
+ /* ----- ----- MAIN ----- ----- */
 
+.main .acerca-de {
+	padding: 60px;
 }
 
-header h1 {
-	font-family: 'Dancing Script', 'cursive';
-    width: 100%;
-	font-size: 350%;
-	/*font-weight: 200%;*/
-    text-align: center;
-	color: white;
-	position:absolute; left:15px; top: 10%; z-index:10; 
-    top: 35%;
-	margin-top: 0%;
-}
-
-
-header div.foto {
-	width: 55%;
-	/*top: 50%;*/
-	height: 0%;
-	position: absolute; left: 350px; top: 2%; z-index: -10;
-	margin-top: 0%;
-}
-
-/* ----- ----- MAIN ----- ----- */
-
-.main .acerca-de .contenedor {
-	overflow: visible;
-	position: relative;
-	top: 200px;
-}
-
-.main .acerca-de .foto{
-	width: 45%;
-	position:relative;
-	z-index: 10;
-	right: -70%; 
-	/*
-	margin: 500px;
-	left: 0;
-    margin-top: 200px;
-	padding-bottom: 20px;
-	z-index: 10;*/
-	margin-top: 0px;
-	top: 95px;
-}
-
-/*.main .acerca-de .foto img {
-	width: 50%;
-	/*height: 10%;
-	right: -137%;
-	position:relative;
-	z-index: 10; 
-	margin-top: 10px;
-}*/
-
-.main .acerca-de h3 {
-	padding: 45px;
-	/*width: 70%;*/
-	position: relative;
+.main .acerca-de .titulo {
+    padding: 45px;
 	text-align: center;
-	left: 0%;
-	/*background-color: rgb(198, 197, 197);*/
+	/*left: 0%;*/
 	background-color: tomato;
-	z-index: -10;
+	/*z-index: -10;*/
 	font-size: 175%;
-	margin-top: -400px;
+	/*margin-top: -400px;*/
 	font: black;
 	border-radius: 45px;
 }
@@ -139,108 +68,79 @@ header div.foto {
 .main .acerca-de article p {
 	line-height: 200%;
 	background: white;
-	padding: 30px;
+	padding: 45px;
+    margin: 5px;
 	left: 0%;
-	/*width: 70%;*/
-	position: relative;
-	font-size: 110%;
-	font: white;
+	text-align: center;
+	font-size: 120%;
 	margin-bottom: 15px;
-	z-index: -10;
-}
-
+	/*z-index: -10;*/
+} 
 
 .main .Proyectos .contenedor {
-	overflow: visible;
-	position: relative;
-	/*top: 400px;*/
+	top: 350px;
 }
-.main .Proyectos h3 {
+
+.main .Proyectos h2 {
 	padding: 45px;
-	position: relative;
-	z-index: -10;
 	font-size: 175%;
 	background-color: tomato;
-	margin-top: 400px;
+	/*margin-top: 400px;*/
 	text-align: center;
 	font: black;
 	border-radius: 45px;
 }
 
-.main .Proyectos .contenedor .foto img {
-  position: relative;
-  z-index: 10;
-  left: 0%;
-  /*top: 380px;*/
+.Proyectos .contenedor .cafeteria {
+    height: 400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.Proyectos .contenedor .fotocopias {
+    height: 400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
 }
 
 #gato2 {
-	top: -100px;
-	width: 20%;
+	width: 15%;
 }
 
 #gato3 {
-	/*top: -600px;*/
-	width: 20%;
-}
-.main .contenedor .cafeteria{
-	line-height: 200%;
-	/*background: rgb(208, 206, 206);*/
-	padding: 30px;
-	right: 0%;
-	/*width: 70%;*/
-	/*position: relative;*/
-	font-size: 102%;
-	font: black;
-	margin-bottom: 15px;
-	z-index: -10;
-	text-decoration: none;
-	text-align: center;
+	width: 15%;
 }
 
-.main .contenedor .cafeteria img:hover {
-	opacity: 1;
-	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
+.Contacto .contenedor{
+ padding-top: 0px;
 }
-
-.main .contenedor .fotocopias{
-	line-height: 200%;
-	/*background: rgb(208, 206, 206);*/
-	padding: 30px;
-	right: 0%;
-	/*width: 70%;*/
-	/*position: relative;*/
-	font-size: 102%;
-	margin-bottom: 15px;
-	z-index: -10;
-	text-decoration: none;
-	text-align: center;
-}
-
 .Contacto{
     display: grid;
-	grid-template-columns: repeat(4,20%);
+	grid-template-columns: repeat(3,10%);
     justify-content:space-between;
 	grid-gap: 10px;
-    margin-left: 10%;
-    margin-right: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
 	align-content: center;
 	background-color: transparent;
+    padding-top: 30px;
+    /*margin: 100px;*/
 }
 
 .main .contactame .titulo {
-   width: 60%;
-   font-size: 190%;
-   text-decoration: solid;
-   margin: 30px;
-   padding:20px;
-   color: white;
-   text-align: center;
-   margin-right: 0%;
-   margin-left: 18%;
-}
+    font-size: 190%;
+    text-decoration: solid;
+    margin: 30px;
+    padding:20px;
+    color: tomato;
+    /*text-align: center;*/
+    margin-left: 40%;
+   /* padding-top: 100px;*/
+ }
 
 /* ----- ----- FOOTER ----- ----- */
 footer {
@@ -249,97 +149,7 @@ footer {
 
 footer .copyright {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 100px;
-	color: black;
-	background-color: white;
-}
-
-/* ----- ----- MEDIA QUERIES ----- ----- */ /*RESPONSIVE*/
-
-@media screen and (max-width: 800px) {
-	header div.foto {
-		/*position: static;  /* texto y cotenedor estatico*/
-		/*height: auto;*/
-		/*top: 80%;*/
-		width: 70%;
-		/*height: 20%;*/
-		position: absolute; left: 150px; top: 20%; z-index: -10;
-		/*margin-top: 0%;	*/
-	}
-
-	header .nombre span {
-		position: static;  /* texto y cotenedor estatico*/
-		height: auto;
-		font-size: 100%;
-		text-align: center;
-		top: 20%;
-
-	}
-	
-	header h1 {
-		font-family: 'Dancing Script', 'cursive';
-		width: 100%;
-		font-size: 250%;
-		/*font-weight: 200%;*/
-		text-align: center;
-		color: white;
-		position:absolute; left:5px; top: 40%; z-index:10; 
-		margin-top: 0%;
-	}
-
-	.main .acerca-de .contenedor {
-		overflow: visible;
-		position: relative;
-		margin-top: 50px;
-		text-align: left;
-		font-size: 98%;
-	}
-	
-	/*.main .acerca-de .foto{
-		width: 60%;
-		position:relative;
-		z-index: 10; 
-		margin-top: 0px
-	}*/
-	
-	.main .acerca-de .foto img {
-		width: 50%;
-		right: 6%;
-		position:relative;
-		z-index: 10; 
-		margin-top: -10px;
-		top: -50%;
-	}
-
-	
-.main .acerca-de h3 {
-	padding: 45px;
-	/*width: 70%;*/
-	position: relative;
-	text-align: center;
-	left: 0%;
-	background-color: rgb(198, 197, 197);
-	top: 200%;
-	/*vertical-align: -200%;*/
-	z-index: -10;
-	font-size: 175%;
-	margin-top: -400px;
-	font: black;
-
-}
-
-.main .acerca-de article p {
-	line-height: 200%;
-	background: tomato;
-	padding: 30px;
-	left: 0%;
-	/*width: 70%;*/
-	position: relative;
-	font-size: 110%;
-	font: black;
-	margin-bottom: 15px;
-	z-index: -10;
-	top: 200%;
-}
+	color: tomato;
 }
