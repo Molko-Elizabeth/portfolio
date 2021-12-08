@@ -69,7 +69,7 @@ header .menu a:hover {
 	line-height: 200%;
 	background: white;
 	padding: 45px;
-    margin: 5px;
+    margin: 0px;
 	left: 0%;
 	text-align: center;
 	font-size: 120%;
@@ -152,4 +152,166 @@ footer .copyright {
 	padding-top: 50px;
 	padding-bottom: 100px;
 	color: tomato;
+}
+
+
+/* ----- ----- MEDIA QUERIES ----- ----- */ /*RESPONSIVE*/
+
+@media screen and (max-width: 800px) {
+
+    /* {
+    margin: 0;
+    padding: 0;
+}*/
+
+body{
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Pacifico','cursive';
+    font-family: 'Pangolin', 'cursive';
+	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   /* font: tomato;*/
+    background-color: black;/*
+    font-size: 16px;*/
+	overflow: auto;
+}
+
+div.logo{
+    text-align:center;
+
+}
+
+header .menu {
+    width: 100%;
+    text-align: right;
+
+}
+
+header .menu a {
+	color: tomato;
+	font-size: 20px;
+	font-weight: 300;
+	display:inline-block;
+	margin: 30px 20px;
+	left: 80%;
+	/*position: relative;*/
+	font-style:normal;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header .menu a:hover {
+	background-color:tomato;
+	color: black;
+	opacity: 1;
+	border-radius: 7px;
+  }
+
+ 
+ /* ----- ----- MAIN ----- ----- */
+
+.main .acerca-de {
+	padding: 60px;
+}
+
+.main .acerca-de .titulo {
+    padding: 45px;
+	text-align: center;
+	/*left: 0%;*/
+	background-color: tomato;
+	/*z-index: -10;*/
+	font-size: 175%;
+	/*margin-top: -400px;*/
+	font: black;
+	border-radius: 45px;
+}
+
+.main .acerca-de article p {
+	line-height: 200%;
+	background: white;
+	padding: 45px;
+    margin: 0px;
+	left: 0%;
+	text-align: center;
+	font-size: 120%;
+	margin-bottom: 15px;
+	/*z-index: -10;*/
+} 
+
+.main .Proyectos .contenedor {
+	top: 350px;
+}
+
+.main .Proyectos h2 {
+	padding: 45px;
+	font-size: 175%;
+	background-color: tomato;
+	/*margin-top: 400px;*/
+	text-align: center;
+	font: black;
+	border-radius: 45px;
+}
+
+.Proyectos .contenedor .cafeteria {
+    height: 400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.Proyectos .contenedor .fotocopias {
+    height: 400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+#gato2 {
+	width: 15%;
+}
+
+#gato3 {
+	width: 15%;
+}
+
+.Contacto .contenedor{
+ padding-top: 0px;
+}
+.Contacto{
+    display: grid;
+	grid-template-columns: repeat(3,10%);
+    justify-content:space-between;
+	grid-gap: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+	align-content: center;
+	background-color: transparent;
+    padding-top: 30px;
+    /*margin: 100px;*/
+}
+
+.main .contactame .titulo {
+    font-size: 190%;
+    text-decoration: solid;
+    margin: 30px;
+    padding:20px;
+    color: tomato;
+    /*text-align: center;*/
+    margin-left: 40%;
+   /* padding-top: 100px;*/
+ }
+
+/* ----- ----- FOOTER ----- ----- */
+footer {
+	background: #000;
+}
+
+footer .copyright {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	color: tomato;
+}
 }
