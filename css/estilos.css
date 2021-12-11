@@ -438,45 +438,46 @@ header .menu a:hover {
 }
 
 #gato2 {
-	width: 15%;
+	width: 25%;
 	margin: 0;
 	padding: 0;
     top: 400px;
 }
 
 #gato3 {
-	width: 15%;
+	width: 25%;
 	margin: 0;
 	padding: 0;
 }
 
 .Contacto .contenedor{
  padding-top: 0px;
- margin: 10px;
+ margin: 0px;
 }
 
 .Contacto{
     display: grid;
-	grid-template-columns: repeat(3,10%);
+	grid-template-columns: repeat(3,15%);
     justify-content:space-between;
-	grid-gap: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
+	grid-gap: 5px;
+    margin-left: 5%;
+    margin-right: 10%;
 	align-content: center;
 	background-color: transparent;
     padding-top: 30px;
+	width: 90%;
     /*margin: 100px;*/
 }
 
 .main .contactame .titulo {
-    font-size: 110%;
+    font-size: 140%;
     text-decoration: solid;
     margin: 20px;
     padding:10px;
     color: tomato;
     text-align: left;
-    margin-left: 20%;
-	padding: 50px;
+    margin-left: 25%;
+	padding: 25px;
      
  }
 
