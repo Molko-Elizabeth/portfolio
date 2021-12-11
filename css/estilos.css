@@ -79,11 +79,12 @@ header .menu a:hover {
 
 .main .Proyectos .contenedor {
 	top: 350px;
+	padding: 60px;
 }
 
 .main .Proyectos h2 {
 	padding: 45px;
-	font-size: 175%;
+	font-size: 170%;
 	background-color: tomato;
 	/*margin-top: 400px;*/
 	text-align: center;
@@ -93,6 +94,7 @@ header .menu a:hover {
 
 .Proyectos .contenedor .cafeteria {
     height: 400px ;
+	width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +103,7 @@ header .menu a:hover {
 
 .Proyectos .contenedor .fotocopias {
     height: 400px ;
+	width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,6 +112,8 @@ header .menu a:hover {
 
 #gato2 {
 	width: 15%;
+	padding: 0;
+	margin: 0;
 }
 
 #gato3 {
@@ -159,11 +164,6 @@ footer .copyright {
 
 @media screen and (max-width: 800px) {
 
-    /* {
-    margin: 0;
-    padding: 0;
-}*/
-
 body{
     font-family: 'Dancing Script', 'cursive';
     font-family: 'Pacifico','cursive';
@@ -178,26 +178,26 @@ body{
 
 div.logo{
     text-align:center;
+	width: 100%;
 
 }
 
 header .menu {
-    width: 100%;
-    text-align: right;
-
+    width: 50%;
 }
 
 header .menu a {
 	color: tomato;
-	font-size: 20px;
-	font-weight: 300;
+	font-size: 15px;
+	font-weight: 50px;
 	display:inline-block;
-	margin: 30px 20px;
-	left: 80%;
-	/*position: relative;*/
-	font-style:normal;
+	margin: 15px 10px;
+	/*text-align: right;*/
+	position: relative;
 	text-decoration: none;
 	font-weight: bold;
+	justify-content: space-between;
+	
 }
 
 header .menu a:hover {
@@ -215,70 +215,76 @@ header .menu a:hover {
 }
 
 .main .acerca-de .titulo {
-    padding: 45px;
+    padding: 20px;
 	text-align: center;
 	/*left: 0%;*/
 	background-color: tomato;
 	/*z-index: -10;*/
-	font-size: 175%;
+	font-size: 120%;
 	/*margin-top: -400px;*/
 	font: black;
-	border-radius: 45px;
+	border-radius: 40px;
 }
 
 .main .acerca-de article p {
-	line-height: 200%;
+	line-height: 170%;
 	background: white;
-	padding: 45px;
+	padding: 25px;
     margin: 0px;
 	left: 0%;
 	text-align: center;
-	font-size: 120%;
-	margin-bottom: 15px;
+	font-size: 90%;
+	margin-bottom: 10px;
 	/*z-index: -10;*/
 } 
 
 .main .Proyectos .contenedor {
-	top: 350px;
+	top: 300px;
+	padding: 60px;
 }
 
 .main .Proyectos h2 {
-	padding: 45px;
-	font-size: 175%;
+	padding: 20px;
+	font-size: 120%;
 	background-color: tomato;
 	/*margin-top: 400px;*/
 	text-align: center;
 	font: black;
-	border-radius: 45px;
+	border-radius: 40px;
 }
 
 .Proyectos .contenedor .cafeteria {
-    height: 400px ;
+    height: 200px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 30px;
 }
 
 .Proyectos .contenedor .fotocopias {
-    height: 400px ;
+    height: 200px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 30px;
 }
 
 #gato2 {
 	width: 15%;
+	margin: 0;
+	padding: 0;
 }
 
 #gato3 {
 	width: 15%;
+	margin: 0;
+	padding: 0;
 }
 
 .Contacto .contenedor{
  padding-top: 0px;
 }
+
 .Contacto{
     display: grid;
 	grid-template-columns: repeat(3,10%);
@@ -293,7 +299,7 @@ header .menu a:hover {
 }
 
 .main .contactame .titulo {
-    font-size: 190%;
+    font-size: 110%;
     text-decoration: solid;
     margin: 30px;
     padding:20px;
@@ -313,5 +319,173 @@ footer .copyright {
 	padding-top: 50px;
 	padding-bottom: 100px;
 	color: tomato;
+}
+}
+
+@media only screen and (max-width: 480px){
+body{
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Pacifico','cursive';
+    font-family: 'Pangolin', 'cursive';
+	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   /* font: tomato;*/
+    background-color: black;/*
+    font-size: 16px;*/
+	overflow: auto;
+}
+
+div.logo{
+    text-align:center;
+	width: 450px;/*
+	height: 450px;*/
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+header .menu {
+    width: 20%;
+
+}
+
+header .menu a {
+	color: tomato;
+	font-size: 10px;
+	font-weight: 30px;
+	display:inline-block;
+	margin: 0px 0px;
+	/*text-align: right;*/
+	text-decoration: none;
+	font-weight: bold;
+	justify-content: space-between;
+}
+
+header .menu a:hover {
+	background-color:tomato;
+	color: black;
+	opacity: 1;
+	border-radius: 7px;
+  }
+
+ 
+ /* ----- ----- MAIN ----- ----- */
+
+.main .acerca-de {
+	padding: 60px;
+	top: 0px;
+}
+
+.main .acerca-de .titulo {
+    padding: 20px;
+	text-align: center;
+	/*left: 0%;*/
+	background-color: tomato;
+	/*z-index: -10;*/
+	font-size: 90%;
+	/*margin-top: -400px;*/
+	font: black;
+	border-radius: 40px;
+}
+
+.main .acerca-de article p {
+	line-height: 140%;
+	background: white;
+	padding: 20px;
+    margin: 0px;
+	left: 0%;
+	text-align: center;
+	font-size: 70%;
+	margin-bottom: 5px;
+	/*z-index: -10;*/
+} 
+
+.main .Proyectos .contenedor {
+	top: 300px;
+	padding: 60px;
+}
+
+.main .Proyectos h2 {
+	padding: 20px;
+	font-size: 90%;
+	background-color: tomato;
+	/*margin-top: 400px;*/
+	text-align: center;
+	font: black;
+	border-radius: 40px;
+}
+
+.Proyectos .contenedor .cafeteria {
+    height: 75px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+	width: 120%;
+}
+
+.Proyectos .contenedor .fotocopias {
+    height: 75px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+	width: 120%;
+}
+
+#gato2 {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+    top: 400px;
+}
+
+#gato3 {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+}
+
+.Contacto .contenedor{
+ padding-top: 0px;
+}
+
+.Contacto{
+    display: grid;
+	grid-template-columns: repeat(3,10%);
+    justify-content:space-between;
+	grid-gap: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+	align-content: center;
+	background-color: transparent;
+    padding-top: 30px;
+    /*margin: 100px;*/
+}
+
+.main .contactame .titulo {
+    font-size: 110%;
+    text-decoration: solid;
+    margin: 20px;
+    padding:10px;
+    color: tomato;
+    text-align: left;
+    margin-left: 33%;
+   /* padding-top: 100px;*/
+ }
+
+/* ----- ----- FOOTER ----- ----- */
+footer {
+	background: #000;
+}
+
+footer .copyright {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	color: tomato;
+	font-size: 70%;
 }
 }
