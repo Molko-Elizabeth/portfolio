@@ -348,7 +348,7 @@ div.logo{
 
 header .menu {
     width: 20%;
-
+	justify-content: space-between;
 }
 
 header .menu a {
@@ -379,12 +379,12 @@ header .menu a:hover {
 }
 
 .main .acerca-de .titulo {
-    padding: 20px;
+    padding: 15px;
 	text-align: center;
 	/*left: 0%;*/
 	background-color: tomato;
 	/*z-index: -10;*/
-	font-size: 90%;
+	font-size: 110%;
 	/*margin-top: -400px;*/
 	font: black;
 	border-radius: 40px;
@@ -393,11 +393,11 @@ header .menu a:hover {
 .main .acerca-de article p {
 	line-height: 140%;
 	background: white;
-	padding: 20px;
+	padding: 15px;
     margin: 0px;
 	left: 0%;
 	text-align: center;
-	font-size: 70%;
+	font-size: 90%;
 	margin-bottom: 5px;
 	/*z-index: -10;*/
 } 
@@ -409,7 +409,7 @@ header .menu a:hover {
 
 .main .Proyectos h2 {
 	padding: 20px;
-	font-size: 90%;
+	font-size: 110%;
 	background-color: tomato;
 	/*margin-top: 400px;*/
 	text-align: center;
@@ -418,21 +418,23 @@ header .menu a:hover {
 }
 
 .Proyectos .contenedor .cafeteria {
-    height: 75px ;
+    height: 90px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-	width: 120%;
+    margin: 0px;
+	width: 150%;
+	padding: 10px;
 }
 
 .Proyectos .contenedor .fotocopias {
-    height: 75px ;
+    height: 90px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-	width: 120%;
+    margin: 0px;
+	width: 150%;
+	padding: 10px;
 }
 
 #gato2 {
@@ -450,6 +452,7 @@ header .menu a:hover {
 
 .Contacto .contenedor{
  padding-top: 0px;
+ margin: 10px;
 }
 
 .Contacto{
@@ -472,8 +475,9 @@ header .menu a:hover {
     padding:10px;
     color: tomato;
     text-align: left;
-    margin-left: 33%;
-   /* padding-top: 100px;*/
+    margin-left: 20%;
+	padding: 50px;
+     
  }
 
 /* ----- ----- FOOTER ----- ----- */
@@ -486,6 +490,6 @@ footer .copyright {
 	padding-top: 50px;
 	padding-bottom: 100px;
 	color: tomato;
-	font-size: 70%;
+	font-size: 100%;
 }
 }
