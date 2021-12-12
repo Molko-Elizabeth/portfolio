@@ -437,30 +437,32 @@ header .menu a:hover {
 }
 
 .Proyectos .contenedor .cafeteria {
-    height: 90px ;
-    display: flex;
+    height: 150% ;
+   /* display: flex;*/
     justify-content: center;
     align-items: center;
     margin: 0px;
-	width: 150%;
+	width: 170%;
 	padding: 10px;
+	vertical-align: middle;
 }
 
 .Proyectos .contenedor .fotocopias {
-    height: 90px ;
+    height: 150% ;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
-	width: 150%;
+	width: 170%;
 	padding: 10px;
+	vertical-align: middle;
 }
 
 #gato2 {
 	width: 25%;
 	margin: 0;
 	padding: 0;
-    top: 400px;
+    top: 300px;
 }
 
 #gato3 {
