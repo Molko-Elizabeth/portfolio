@@ -367,7 +367,7 @@ div.logo{
 	width: 90%;
 	vertical-align: middle;
 	display: table-cell;
-	margin: 40px 45px;
+	margin: 40px 25px;
 }
 
 header .menu {
@@ -379,7 +379,7 @@ header .menu {
 
 header .menu a {
 	color: tomato;
-	font-size: 10px;
+	font-size: 15px;
 	display: block;	/*margin: 5px 0px;*/
 	text-align: left;
 	font-weight: bold;
