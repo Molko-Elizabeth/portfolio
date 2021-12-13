@@ -204,13 +204,12 @@ header .menu a {
 	color: tomato;
 	font-size: 15px;
 	font-weight: 50px;
-	display:inline-block;
 	margin: 15px 10px;
 	/*text-align: right;*/
-	position: relative;
 	text-decoration: none;
 	font-weight: bold;
 	justify-content: space-between;
+	display: block;	/*margin: 5px 0px;*/
 	
 }
 
@@ -365,9 +364,12 @@ div.logo{
 	margin-top: 300px;
 }
 
-div.logo .img {
-
- vertical-align: middle;
+.logo img{
+	height: 90%;
+	width: 90%;
+	vertical-align: middle;
+	display: table-cell;
+	margin: 45px 45px;
 }
 
 header .menu {
