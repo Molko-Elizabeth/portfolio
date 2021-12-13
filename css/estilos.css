@@ -397,12 +397,12 @@ header .menu a:hover {
  /* ----- ----- MAIN ----- ----- */
 
 .main .acerca-de {
-	padding: 60px;
+	padding: 40px;
 	top: 0px;
 }
 
 .main .acerca-de .titulo {
-    padding: 15px;
+    padding: 10px;
 	text-align: center;
 	/*left: 0%;*/
 	background-color: tomato;
@@ -410,18 +410,18 @@ header .menu a:hover {
 	font-size: 110%;
 	/*margin-top: -400px;*/
 	font: black;
-	border-radius: 40px;
+	border-radius: 30px;
 }
 
 .main .acerca-de article p {
 	line-height: 140%;
 	background: white;
-	padding: 15px;
+	padding: 10px;
     margin: 0px;
 	left: 0%;
 	text-align: center;
 	font-size: 90%;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	/*z-index: -10;*/
 } 
 
