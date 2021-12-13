@@ -124,8 +124,6 @@ img#gato3 {
 	margin-top: 20px;
 }
 
-}
-
 .Contacto .contenedor{
  padding-top: 0px;
 }
@@ -369,7 +367,7 @@ div.logo{
 	width: 90%;
 	vertical-align: middle;
 	display: table-cell;
-	margin: 45px 45px;
+	margin: 40px 45px;
 }
 
 header .menu {
@@ -443,32 +441,31 @@ header .menu a:hover {
 }
 
 .Proyectos .contenedor .cafeteria {
-    height: 150% ;
+    height: 100% ;
    /* display: flex;*/
     justify-content: center;
     align-items: center;
     margin: 0px;
-	width: 170%;
-	padding: 10px;
+	width: 150%;
+	padding: 0px;
 	vertical-align: middle;
 }
 
 .Proyectos .contenedor .fotocopias {
-    height: 150% ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100% ;
+    /*display: flex;*/
+    justify-content: left;
     margin: 0px;
-	width: 170%;
-	padding: 10px;
-	vertical-align: middle;
+	width: 150%;
+	padding: 0px;
+	vertical-align: left;
 }
 
 img#gato2 {
 	width: 25%;
 	/*margin: 0;
 	padding: 0;*/
-    top: 0px;
+    top: 10px;
 }
 
 img#gato3 {
