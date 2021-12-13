@@ -17,13 +17,16 @@ body{
 
 div.logo{
     text-align:center;
+	width: 60%;
+	vertical-align: middle;
+	display: table-cell;
+
 
 }
 
 header .menu {
     width: 100%;
     text-align: right;
-
 }
 
 header .menu a {
@@ -110,14 +113,17 @@ header .menu a:hover {
     margin: 40px;
 }
 
-#gato2 {
+img#gato2 {
 	width: 15%;
 	padding: 0;
-	margin: 0;
+	margin-top: -70px;
 }
 
-#gato3 {
+img#gato3 {
 	width: 15%;
+	margin-top: 20px;
+}
+
 }
 
 .Contacto .contenedor{
@@ -178,8 +184,8 @@ body{
 
 div.logo{
     text-align:center;
-	height: 280%;
-	width: 280%;
+	/*height: 280%;
+	width: 280%;*/
 	padding: 0px;
 	border-width: 0px;
 	/*margin:0px;
@@ -344,42 +350,40 @@ body{
 }
 
 div.logo{
-    /*text-align:center;
-	width: 140%;
-	height: 300px;
+    /*text-align:center;*/
+	width: 150%;
+	/*height: 300px;*/
 	margin: -20px;
-	padding: 15px;
+	padding: 15px;/*
 	align-items: center;
 	justify-content: center;*/
     /*z-index: 3;*/
-	height: 280%;
-	width: 280%;
 	padding: 0px;
 	border-width: 0px;
-	/*margin:0px;
-	left: 0px;
-	top: 0px;*/
 	display: table-cell;
 	vertical-align: middle;
+	margin-top: 300px;
+}
+
+div.logo .img {
+
+ vertical-align: middle;
 }
 
 header .menu {
-	margin: 0;
-	padding: 5;
-	text-align: center;
-	/*margin: 10px 20px;*/
+	/*margin: 0;
+	padding: 5;*/
+	text-align: left;
+	margin: 10px 0px;
 }
 
 header .menu a {
 	color: tomato;
 	font-size: 10px;
-	display:inline-block;
-	/*margin: 5px 0px;*/
+	display: block;	/*margin: 5px 0px;*/
 	text-align: left;
-	text-decoration: none;
 	font-weight: bold;
-	/*justify-content: space-around;*/
-	margin: 5px 10px;
+	margin: 5px 5px;
 }
 
 header .menu a:hover {
@@ -458,17 +462,18 @@ header .menu a:hover {
 	vertical-align: middle;
 }
 
-#gato2 {
+img#gato2 {
 	width: 25%;
-	margin: 0;
-	padding: 0;
-    top: 300px;
+	/*margin: 0;
+	padding: 0;*/
+    top: 0px;
 }
 
-#gato3 {
-	width: 25%;
-	margin: 0;
-	padding: 0;
+img#gato3 {
+	width: 30%;
+	/*margin: 0;
+	padding: 0;*/
+	top: 100px
 }
 
 .Contacto .contenedor{
