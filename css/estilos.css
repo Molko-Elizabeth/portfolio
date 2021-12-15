@@ -455,7 +455,7 @@ footer .copyright {
 		margin: 0px;
 		left: 0%;
 		text-align: center;
-		font-size: 140%;
+		font-size: 110%;
 		margin-bottom: 0px;
 		/*z-index: -10;*/
 	} 
@@ -467,7 +467,7 @@ footer .copyright {
 	
 	.main .Proyectos h2 {
 		padding: 20px;
-		font-size: 110%;
+		font-size: 140%;
 		background-color: tomato;
 		/*margin-top: 400px;*/
 		text-align: center;
@@ -498,16 +498,16 @@ footer .copyright {
 	
 	img#gato2 {
 		width: 25%;
-		/*margin: 0;*/
-		padding: 0px;
+		margin: 0;
+		padding: 0;
 		top: 150px;
 	}
 	
 	img#gato3 {
-		width: 30%;
-		/*margin: 0;
-		padding: 0;*/
-		top: 100px
+		width: 25%;
+		margin: 30;
+		padding: 0;
+		top: 500px
 	}
 	
 	.Contacto .contenedor{
@@ -536,7 +536,7 @@ footer .copyright {
 		padding:10px;
 		color: tomato;
 		text-align: left;
-		margin-left: 25%;
+		margin-left: 20%;
 		padding: 25px;
 		 
 	 }
