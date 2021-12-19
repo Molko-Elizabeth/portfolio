@@ -1,0 +1,573 @@
+
+*{
+	background-color: black;
+}
+body{
+    /*font-family: 'Dancing Script', 'cursive';
+    font-family: 'Pacifico','cursive';
+    font-family: 'Pangolin', 'cursive';
+	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   font: tomato;*/
+	/*color: var(--bs-body-color);*/
+	margin: 0;
+    padding: 0;
+	font-family: var(--bs-body-font-family);
+	font-size: var(--bs-body-font-size);
+	font-weight: var(--bs-body-font-weight);
+	line-height: var(--bs-body-line-height);
+	color: var(--bs-body-color);
+	text-align: var(--bs-body-text-align);
+	/* -webkit-text-size-adjust: 100%; */
+	-webkit-tap-highlight-color: transparent;
+	background-color: #000 var(--bs-body-bg);
+	/*overflow: auto;*/
+}
+.p-3 {
+    padding: 0rem!important;
+}
+.mb-2 {
+     margin-bottom: 0rem!important;
+}
+div.logo{
+    text-align:center;
+	width: 80%;
+	vertical-align: middle;
+	display: table-cell;
+
+
+}
+
+.close-mobile-menu {
+	display: none;
+	position: fixed;
+	bottom: 5vh;
+	left: 50%;
+	transform: translateX(-50%);
+	color:black;
+	background: tomato;
+	border: none;
+	font-size: 2em;
+	z-index: 1000;
+}
+
+ nav {
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: tomato;
+	background-color: black;
+}
+.container .navbar-brand{
+	width: 120px;
+	height: 120px;
+}
+.navbar-nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+
+header .menu {
+    width: 100%;
+    text-align: right;
+}
+
+header .menu a {
+	color: tomato;
+	font-size: 20px;
+	font-weight: 300;
+	display:inline-block;
+	margin: 30px 20px;
+	left: 80%;
+	/*position: relative;*/
+	font-style:normal;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header .menu a:hover {
+	background-color:tomato;
+	color: black;
+	opacity: 1;
+	border-radius: 7px;
+  }
+
+ 
+ /* ----- ----- MAIN ----- ----- */
+
+.main .acerca-de {
+	padding: 60px;
+}
+
+.main .acerca-de .titulo {
+    padding: 45px;
+	text-align: center;
+	/*left: 0%;*/
+	background-color: tomato;
+	/*z-index: -10;*/
+	font-size: 175%;
+	/*margin-top: -400px;*/
+	font: black;
+	border-radius: 45px;
+}
+
+.main .acerca-de article p {
+	line-height: 200%;
+	background: white;
+	padding: 45px;
+    margin: 0px;
+	left: 0%;
+	text-align: center;
+	font-size: 120%;
+	margin-bottom: 15px;
+	/*z-index: -10;*/
+} 
+
+.main .Proyectos .contenedor {
+	top: 350px;
+	padding: 60px;
+}
+
+.main .Proyectos h2 {
+	padding: 45px;
+	font-size: 170%;
+	background-color: tomato;
+	/*margin-top: 400px;*/
+	text-align: center;
+	font: black;
+	border-radius: 45px;
+}
+
+.Proyectos .contenedor .cafeteria {
+    height: 400px ;
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.Proyectos .contenedor .fotocopias {
+    height: 400px ;
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+img#gato2 {
+	width: 15%;
+	padding: 0;
+	margin-top: -70px;
+}
+
+img#gato3 {
+	width: 15%;
+	margin-top: 20px;
+}
+
+.Contacto .contenedor{
+ padding-top: 0px;
+}
+.Contacto{
+    display: grid;
+	grid-template-columns: repeat(3,10%);
+    justify-content:space-between;
+	grid-gap: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+	align-content: center;
+	background-color: transparent;
+    padding-top: 30px;
+    /*margin: 100px;*/
+}
+
+.main .contactame .titulo {
+    font-size: 190%;
+    text-decoration: solid;
+    margin: 30px;
+    padding:20px;
+    color: tomato;
+    /*text-align: center;*/
+    margin-left: 40%;
+   /* padding-top: 100px;*/
+ }
+
+/* ----- ----- FOOTER ----- ----- */
+footer {
+	background: #000;
+}
+
+footer .copyright {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	color: tomato;
+}
+
+
+/* ----- ----- MEDIA QUERIES ----- ----- */ /*RESPONSIVE*/
+
+@media screen and (max-width: 800px) {
+
+body{
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Pacifico','cursive';
+    font-family: 'Pangolin', 'cursive';
+	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   /* font: tomato;*/
+    background-color: black;/*
+    font-size: 16px;*/
+	overflow: auto;
+}
+
+div.logo{
+    text-align:center;
+	/*height: 280%;
+	width: 280%;*/
+	padding: 0px;
+	border-width: 0px;
+	/*margin:0px;
+	left: 0px;
+	top: 0px;*/
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+header .menu {
+    width: 50%;
+}
+
+header .menu a {
+	color: tomato;
+	font-size: 15px;
+	font-weight: 50px;
+	margin: 15px 10px;
+	/*text-align: right;*/
+	text-decoration: none;
+	font-weight: bold;
+	justify-content: space-between;
+	display: block;	/*margin: 5px 0px;*/
+	
+}
+
+header .menu a:hover {
+	background-color:tomato;
+	color: black;
+	opacity: 1;
+	border-radius: 7px;
+  }
+
+ 
+ /* ----- ----- MAIN ----- ----- */
+
+.main .acerca-de {
+	padding: 60px;
+	margin:0;
+}
+
+.main .acerca-de .titulo {
+    padding: 15px;
+	text-align: center;
+	align-items: center;
+	/*left: 0%;*/
+	background-color: tomato;
+	/*z-index: -10;*/
+	font-size: 80%;
+	/*margin-top: -400px;*/
+	font: black;
+	border-radius: 40px;
+}
+
+.main .acerca-de article p {
+	line-height: 170%;
+	background: white;
+	padding: 10px;
+    margin: 0px;
+	align-items: center;
+	text-align: center;
+	font-size: 80%;
+	margin-bottom: 0px;
+	/*z-index: -10;*/
+} 
+
+.main .Proyectos .contenedor {
+	top: 300px;
+	padding: 40px;
+}
+
+.main .Proyectos h2 {
+	padding: 20px;
+	font-size: 120%;
+	background-color: tomato;
+	/*margin-top: 400px;*/
+	text-align: center;
+	font: black;
+	border-radius: 40px;
+}
+
+.Proyectos .contenedor .cafeteria {
+    height: 200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.Proyectos .contenedor .fotocopias {
+    height: 200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+#gato2 {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+}
+
+div.foto3 {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#gato3 {
+	width: 15%;
+	/*margin: auto;
+	margin: 0;
+	padding: 0;*/
+	/*box-sizing: border-box;*/
+}
+
+.Contacto .contenedor{
+ padding-top: 0px;
+}
+
+.Contacto{
+    display: grid;
+	grid-template-columns: repeat(3,10%);
+    justify-content:space-between;
+	grid-gap: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+	align-content: center;
+	background-color: transparent;
+    padding-top: 30px;
+    /*margin: 100px;*/
+}
+
+.main .contactame .titulo {
+    font-size: 110%;
+    text-decoration: solid;
+    margin: 30px;
+    padding:20px;
+    color: tomato;
+    /*text-align: center;*/
+    margin-left: 40%;
+   /* padding-top: 100px;*/
+ }
+
+/* ----- ----- FOOTER ----- ----- */
+footer {
+	background: #000;
+}
+
+footer .copyright {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	color: tomato;
+}
+
+@media only screen and (max-width: 480px){
+
+	body{
+		font-family: 'Dancing Script', 'cursive';
+		font-family: 'Pacifico','cursive';
+		font-family: 'Pangolin', 'cursive';
+		font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+	   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	   /* font: tomato;*/
+		background-color: black;/*
+		font-size: 16px;*/
+		overflow: auto;
+	}
+	div.logo{
+		/*text-align:center;*/
+	   width: 150%;
+		/*height: 300px;*/
+	   margin: -20px;
+	   padding: 15px;/*
+		align-items: center;
+			justify-content: center;*/
+			/*z-index: 3;*/
+	   padding: 0px;
+	   border-width: 0px;
+	   display: table-cell;
+	   vertical-align: middle;
+	   margin-top: 300px;
+	}
+		
+	.logo img{
+	    height: 90%;
+		width: 90%;
+		vertical-align: middle;
+		display: table-cell;
+		margin: 40px 25px;
+	}
+    header .menu {
+		/*margin: 0;
+		padding: 5;*/
+		text-align: left;
+		margin: 10px 0px;
+	}
+	
+	header .menu a {
+		color: tomato;
+		font-size: 15px;
+		display: block;	/*margin: 5px 0px;*/
+		text-align: left;
+		font-weight: bold;
+		margin: 5px 5px;
+	}
+	
+	header .menu a:hover {
+		background-color:tomato;
+		color: black;
+		opacity: 1;
+		border-radius: 7px;
+	  }
+	
+	 /* ----- ----- MAIN ----- ----- */
+	
+	.main .acerca-de {
+		padding: 30px;
+		top: 0px;
+	}
+	
+	.main .acerca-de .titulo {
+		padding: 15px;
+		text-align: center;
+		/*left: 0%;*/
+		background-color: tomato;
+		/*z-index: -10;*/
+		font-size: 140%;
+		/*margin-top: -400px;*/
+		font: black;
+		border-radius: 30px;
+	}
+	
+	.main .acerca-de article p {
+		line-height: 145%;
+		background: white;
+		padding: 20px;
+		margin: 0px;
+		left: 0%;
+		text-align: center;
+		font-size: 110%;
+		margin-bottom: 0px;
+		/*z-index: -10;*/
+	} 
+	
+	.main .Proyectos .contenedor {
+		top: 300px;
+		padding: 40px;
+	}
+	
+	.main .Proyectos h2 {
+		padding: 20px;
+		font-size: 140%;
+		background-color: tomato;
+		/*margin-top: 400px;*/
+		text-align: center;
+		font: black;
+		border-radius: 40px;
+	}
+	
+	.Proyectos .contenedor .cafeteria {
+		height: 100% ;
+	   /* display: flex;*/
+		justify-content: center;
+		align-items: center;
+		margin: 0px;
+		width: 150%;
+		padding: 0px;
+		vertical-align: middle;
+	}
+	
+	.Proyectos .contenedor .fotocopias {
+		height: 100% ;
+		/*display: flex;*/
+		justify-content: left;
+		margin: 0px;
+		width: 150%;
+		padding: 0px;
+		vertical-align: left;
+	}
+	
+	img#gato2 {
+		width: 25%;
+		margin: 0;
+		padding: 0;
+		top: 150px;
+	}
+	
+	img#gato3 {
+		width: 25%;
+		/*margin: 0;
+		padding: 0;*/
+		top: 400px
+	}
+	
+	.Contacto .contenedor{
+	 padding-top: 0px;
+	 margin: 0px;
+	}
+	
+	.Contacto{
+		display: grid;
+		grid-template-columns: repeat(3,15%);
+		justify-content:space-between;
+		grid-gap: 5px;
+		margin-left: 5%;
+		margin-right: 10%;
+		align-content: center;
+		background-color: transparent;
+		padding-top: 30px;
+		width: 90%;
+		/*margin: 100px;*/
+	}
+	
+	.main .contactame .titulo {
+		font-size: 140%;
+		text-decoration: solid;
+		margin: 20px;
+		padding:10px;
+		color: tomato;
+		text-align: left;
+		margin-left: 20%;
+		padding: 25px;
+		 
+	 }
+	
+	/* ----- ----- FOOTER ----- ----- */
+	footer {
+		background: #000;
+	}
+	
+	footer .copyright {
+		text-align: center;
+		padding-top: 50px;
+		padding-bottom: 100px;
+		color: tomato;
+		font-size: 85%;
+	}
+}
