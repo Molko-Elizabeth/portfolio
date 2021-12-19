@@ -1,5 +1,9 @@
 
-
+*{
+	background-color: black;
+	margin: 0;
+	
+}
 body{
     /*font-family: 'Dancing Script', 'cursive';
     font-family: 'Pacifico','cursive';
@@ -9,6 +13,7 @@ body{
    font: tomato;*/
 	/*color: var(--bs-body-color);*/
 	margin: 0;
+    padding: 0;
 	font-family: var(--bs-body-font-family);
 	font-size: var(--bs-body-font-size);
 	font-weight: var(--bs-body-font-weight);
@@ -19,6 +24,12 @@ body{
 	-webkit-tap-highlight-color: transparent;
 	background-color: #000 var(--bs-body-bg);
 	/*overflow: auto;*/
+}
+.p-3 {
+    padding: 0rem!important;
+}
+.mb-2 {
+     margin-bottom: 0rem!important;
 }
 div.logo{
     text-align:center;
@@ -152,12 +163,20 @@ header .menu a:hover {
 img#gato2 {
 	width: 15%;
 	padding: 0;
+	margin: 0;
 	margin-top: -70px;
 }
 
-img#gato3 {
+/*.div.foto3 {
+	margin: 0;
 	width: 15%;
-	margin-top: 20px;
+	margin-top: 30px;
+}*/
+
+img#gato3 {
+	margin: 0;
+	width: 15%;
+	margin-top: 30px;
 }
 
 .Contacto .contenedor{
@@ -324,10 +343,18 @@ header .menu a:hover {
 	padding: 0;
 }
 
-#gato3 {
-	width: 15%;
+div.foto3 {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+#gato3 {
+	width: 15%;
+	/*margin: auto;
+	margin: 0;
+	padding: 0;*/
+	/*box-sizing: border-box;*/
 }
 
 .Contacto .contenedor{
@@ -505,9 +532,10 @@ footer .copyright {
 	
 	img#gato3 {
 		width: 25%;
-		margin: 30;
+		margin: 0;
 		padding: 0;
-		top: 500px
+		top: 400px;
+		align-items: left;
 	}
 	
 	.Contacto .contenedor{
@@ -553,4 +581,3 @@ footer .copyright {
 		color: tomato;
 		font-size: 85%;
 	}
-}
