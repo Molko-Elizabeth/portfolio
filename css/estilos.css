@@ -160,7 +160,6 @@ header .menu a:hover {
 
 img#gato2 {
 	width: 15%;
-	padding: 0;
 	margin-top: -70px;
 }
 
@@ -331,20 +330,22 @@ header .menu a:hover {
 	width: 15%;
 	margin: 0;
 	padding: 0;
+	padding: 0rem!important;
+	margin-bottom: 0rem!important;
 }
 
-div.foto3 {
+/*div.foto3 {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-}
+	top: 400px;
+}*/
 
 #gato3 {
 	width: 15%;
-	/*margin: auto;
-	margin: 0;
-	padding: 0;*/
-	/*box-sizing: border-box;*/
+	top: 800px;
+	padding: 0rem!important;
+	margin-bottom: 0rem!important;
 }
 
 .Contacto .contenedor{
@@ -522,9 +523,9 @@ footer .copyright {
 	
 	img#gato3 {
 		width: 25%;
-		/*margin: 0;
-		padding: 0;*/
-		top: 400px
+		top: 400px;
+		padding: 0rem!important;
+		margin-bottom: 0rem!important;
 	}
 	
 	.Contacto .contenedor{
@@ -570,4 +571,4 @@ footer .copyright {
 		color: tomato;
 		font-size: 85%;
 	}
-}
+}}
