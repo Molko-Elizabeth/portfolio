@@ -1,6 +1,8 @@
 
 *{
 	background-color: black;
+	margin: 0;
+	padding: 0;
 }
 body{
     /*font-family: 'Dancing Script', 'cursive';
@@ -51,9 +53,9 @@ div.logo{
 	z-index: 1000;
 }
 
- nav {
+/* nav {
 	position: relative;
-}
+}*/
 .navbar-dark .navbar-nav .nav-link {
 	color: tomato;
 	background-color: black;
@@ -212,6 +214,12 @@ footer .copyright {
 
 @media screen and (max-width: 800px) {
 
+*{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
 body{
     font-family: 'Dancing Script', 'cursive';
     font-family: 'Pacifico','cursive';
@@ -221,7 +229,7 @@ body{
    /* font: tomato;*/
     background-color: black;/*
     font-size: 16px;*/
-	overflow: auto;
+	/*overflow: auto;*/
 }
 
 div.logo{
@@ -390,6 +398,12 @@ footer .copyright {
 
 @media only screen and (max-width: 480px){
 
+	*{
+		background-color: black;
+		margin: 0;
+		padding: 0;
+	}
+
 	body{
 		font-family: 'Dancing Script', 'cursive';
 		font-family: 'Pacifico','cursive';
@@ -399,7 +413,7 @@ footer .copyright {
 	   /* font: tomato;*/
 		background-color: black;/*
 		font-size: 16px;*/
-		overflow: auto;
+		/*overflow: auto;*/
 	}
 	div.logo{
 		/*text-align:center;*/
