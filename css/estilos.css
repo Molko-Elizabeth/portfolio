@@ -588,10 +588,10 @@ footer .copyright {
 	}
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 375px){
 	div.logo{
 		/*text-align:center;*/
-	   width: 150%;
+	   width: 120%;
 		/*height: 300px;*/
 	   margin: -20px;
 	   padding: 15px;/*
