@@ -586,4 +586,30 @@ footer .copyright {
 		color: tomato;
 		font-size: 85%;
 	}
-}}
+}
+
+@media only screen and (max-width: 425px){
+	div.logo{
+		/*text-align:center;*/
+	   width: 150%;
+		/*height: 300px;*/
+	   margin: -20px;
+	   padding: 15px;/*
+		align-items: center;
+			justify-content: center;*/
+			/*z-index: 3;*/
+	   padding: 0px;
+	   border-width: 0px;
+	   display: table-cell;
+	   vertical-align: middle;
+	   margin-top: 300px;
+	}
+		
+	.logo img{
+	    height: 90%;
+		width: 90%;
+		vertical-align: middle;
+		display: table-cell;
+		margin: 40px 25px;
+	}
+}}	
