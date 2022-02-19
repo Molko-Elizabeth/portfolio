@@ -540,8 +540,8 @@ footer .copyright {
 	.main .contactame .titulo {
 		font-size: 140%;
 		text-decoration: solid;
-		margin: 20px;
-		padding:10px;
+		margin: 30px;
+		padding:20px;
 		color: tomato;
 		text-align: left;
 		margin-left: 20%;
@@ -556,7 +556,7 @@ footer .copyright {
 	
 	footer .copyright {
 		text-align: center;
-		padding-top: 50px;
+		padding-top: 60px;
 		padding-bottom: 100px;
 		color: tomato;
 		font-size: 85%;
