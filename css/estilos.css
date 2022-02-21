@@ -363,7 +363,7 @@ footer .copyright {
 	color: tomato;
 }
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
 	body{
 		font-family: 'Dancing Script', 'cursive';
@@ -472,23 +472,20 @@ footer .copyright {
 	}
 	
 	.Proyectos .contenedor .cafeteria {
-		/*height: 100% ;*/
-	    display: flex;
-		justify-content: left;/*
-		align-items: center;*/
-		margin: 0px;
-		width: 120%;
+		height: 100% ;
+		margin: 0;
+		width: 100%;
 		padding: 10;
-		vertical-align: left;
+		vertical-align: center;
 	}
 	
 	.Proyectos .contenedor .fotocopias {
-		height: 10% ;
+		height: 100% ;
 		/*display: flex;
 		justify-content: center;*/
-		margin: 0px;
-		width: 120%;
-		padding: 0;
+		margin: 0;
+		width: 100%;/*
+		padding: 0;*/
 		vertical-align: center;
 	}
 
