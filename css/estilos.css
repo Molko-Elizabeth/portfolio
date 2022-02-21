@@ -458,8 +458,9 @@ footer .copyright {
 	
 	.main .Proyectos .contenedor {
 		height: 100%;
-		top: 300px;
+		top: 350px;
 		padding: 15px;
+		margin: 30px;
 	}
 	
 	.main .Proyectos h2 {
