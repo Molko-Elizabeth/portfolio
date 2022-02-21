@@ -457,8 +457,9 @@ footer .copyright {
 	} 
 	
 	.main .Proyectos .contenedor {
+		height: 100%;
 		top: 300px;
-		padding: 40px;
+		padding: 15px;
 	}
 	
 	.main .Proyectos h2 {
@@ -472,16 +473,16 @@ footer .copyright {
 	}
 	
 	.Proyectos .contenedor .cafeteria {
-		height: 90% ;
-		width: 110%;/*
+		height: 100% ;
+		width: 100%;/*
 		margin: 0;
 		padding: 10;
 		vertical-align: center;*/
 	}
 	
 	.Proyectos .contenedor .fotocopias {
-		height: 90% ;
-		width: 110%;
+		height: 100% ;
+		width: 100%;
 		/*display: flex;
 		justify-content: center;
 		margin: 0;
