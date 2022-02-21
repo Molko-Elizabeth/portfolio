@@ -472,21 +472,22 @@ footer .copyright {
 	}
 	
 	.Proyectos .contenedor .cafeteria {
-		height: 100% ;
+		height: 90% ;
+		width: 110%;/*
 		margin: 0;
-		width: 100%;
 		padding: 10;
-		vertical-align: center;
+		vertical-align: center;*/
 	}
 	
 	.Proyectos .contenedor .fotocopias {
-		height: 100% ;
+		height: 90% ;
+		width: 110%;
 		/*display: flex;
-		justify-content: center;*/
+		justify-content: center;
 		margin: 0;
-		width: 100%;/*
-		padding: 0;*/
-		vertical-align: center;
+		width: 100%;
+		padding: 0;
+		vertical-align: center;*/
 	}
 
 	
