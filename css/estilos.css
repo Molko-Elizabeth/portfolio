@@ -475,7 +475,10 @@ footer .copyright {
 	
 	.Proyectos .contenedor .cafeteria {
 		height: 100% ;
-		width: 100%;/*
+		display: grid;
+		width: 110%;
+		margin: 20;
+		padding: 10;/*
 		margin: 0;
 		padding: 10;
 		vertical-align: center;*/
@@ -483,7 +486,10 @@ footer .copyright {
 	
 	.Proyectos .contenedor .fotocopias {
 		height: 100% ;
-		width: 100%;
+		width: 110%;
+		display: grid;
+		margin: 20;
+		padding: 10;
 		/*display: flex;
 		justify-content: center;
 		margin: 0;
