@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Pangolin&display=swap" rel="stylesheet">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
@@ -16,14 +17,34 @@
 <div class="p-3  mb-2 bg-black !important text-"><div class="bg-dark"></div>
 <body>
     <header>
-        <div class="contenedor">
-            <nav class="menu">    
-                 <a href="#acerca-de" id="btn-acerca-de">Acerca de mi</a>
-                     <span> <i class="fas fa-address-card" aria-hidden="true"></i></span>
-                 <a href="#proyectos" id="btn-proyectos">Proyectos</a>
-                     <span>  <i class="fas fa-tasks" aria-hidden="true"></i> </span>
-                 <a href="#contactame" id="btn-contactame">Contactame</a> 
-                      <span> <i class="fas fa-envelope-open-text"aria-hidden="true"></i> </span>        
+        <div class="contenedor" style="background-color: black;">
+            <nav class="navbar  navbar-expand-lg navbar-dark">   
+                <button
+                 style="color: tomato;"
+                 class="navbar-toggler"
+                 type="button"
+                 data-bs-toggle="collapse"
+                 data-bs-target="#contenidoMenu"
+                 aria-controls="contenidoMenu"
+                 aria-expanded="false"
+                 aria-label="Mostrar/Ocultar Navegacion"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="contenidoMenu">
+                    <!--Enlaces-->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="#acerca-de" id="btn-acerca-de">Acerca de mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#proyectos" id="btn-proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contactame" id="btn-contactame">Contactame</a>
+                        </li>
+                    </ul> 
+                </div>         
             </nav>
         </div>     
         <div class="logo">
@@ -43,50 +64,106 @@
         </section>
 
         <section class="Proyectos" id="proyectos">
-            <div class="contenedor">
-                <h2 class="texto1" id="titulo2">Proyectos</h2>
-                <div class="cafeteria">
-                    <a href="https://cafe-valentine.netlify.app" target="_blank" rel="noreferrer">
-                         <img id="CAFE" src="img/cafevalentina.png" alt="" width=" 70%">
-                   </a>
-               </div>
-               <div class="fotocopias">
-                    <a href="https://ricopier.net" target="_blank" rel="noreferrer">
-                         <img id="Ricopier" src="img/Ricopier.png" alt="" width=" 70%">
-                   </a>
-               </div>
-            </div>   
+            <h2 class="texto1" id="titulo2">Proyectos</h2>
+            <div class="row">
+                <div class="col">
+                    <div id="slideshow" class="carousel slide justify-content-center" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                           <div class="carousel-item active">
+                               <a href="https://cafe-valentine.netlify.app" target="_blank" rel="noreferrer">
+                                  <img src="img/cafevalentina.png" class="w-90" alt="">
+                               </a>   
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://ricopier.net" target="_blank" rel="noreferrer">
+                                    <img src="img/Ricopier.png" class="w-90" alt="">
+                              </a>
+                            </div>
+                        </div>  
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#slideshow"
+                            data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" 
+                            type="button"
+                            data-bs-target="#slideshow"
+                            data-bs-slide="next"
+                        >
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Siguiente</span>
+                       </button>
+                       <!--indicadores-->
+                       <div class="carousel-indicators">
+                           <button
+                              type="button"
+                             data-bs-target="#slideshow"
+                             data-bs-slide-to="0"
+                             class="active"
+                             aria-current="true"
+                             aria-label="Slide #1">
+                          </button>
+                           <button
+                              type="button"
+                              data-bs-target="#slideshow"
+                              data-bs-slide-to="1"
+                             class="active"
+                             aria-current="true"
+                             aria-label="Slide #2">
+                           </button>  
+                       </div>      
+                    </div>    
+               </div>        
+            </div>    
         </section>
 
         <section class="contactame" id="contactame">
-            <h2 class="titulo" id="contactame">¡Contactame!</h2>
-            <div class="Contacto">
-               <div class="github">
-                   <a href="https://github.com/Molko-Elizabeth" target="_blank" rel="noreferrer">
-                         <img id="GITHUB" src="img/github.png" alt="" width="90%">
-                  </a>    
-               </div>
-               <div class="curriculum">
-                    <a href= "https://drive.google.com/drive/folders/1IRBZ4EFGvC5tsk3xvt4AdayYJ7LZuReW?usp=sharing" target="_blank" rel="noferrer">
-                         <img src="img/cv.png" alt="" width="90%">
-                    </a>   
-              </div>
-              <div class="Linkedin">         
-                    <a href="https://www.linkedin.com/in/brenda-elizabeth-ca%C3%B1as-51b61b16a" target="_blank" rel="noferrer">
-                        <img src="img/linkedin.png" alt="" width="90%">
-                    </a>
-              </div>
+            <div class="contactame">
+                <h1 class="text-center"style="color: tomato">¡Contactame!</h1>
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-3 col-lg-3 mb-1 mt-4">
+                   <div class="card" style="background-color: black;">
+                        <img class="card-img-top" src="img/github.png" alt="">
+                        <div class="card-body">
+                            <a href="https://github.com/Molko-Elizabeth" target="_blank" rel="noreferrer">
+                           </a>   
+                        </div>
+                   </div>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-3 mb-1 mt-4">
+                    <div class="card" style="background-color: black;">
+                         <img class="card-img-top" src="img/cv.png" alt="">
+                         <div class="card-body">
+                              <a href= "https://drive.google.com/drive/folders/1IRBZ4EFGvC5tsk3xvt4AdayYJ7LZuReW?usp=sharing" target="_blank" rel="noferrer">
+                             </a>    
+                         </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-3 mb-1 mt-4">
+                    <div class="card" style="background-color: black;">
+                        <img class="card-img-top" src="img/linkedin.png"  alt="">
+                        <div class="card-body">
+                            <a href="https://www.linkedin.com/in/brenda-elizabeth-ca%C3%B1as-51b61b16a" target="_blank" rel="noferrer">
+                            </a>   
+                        </div>
+                   </div>
+                </div>
           </div>
         </section>
     </section>   
-
-   <footer>
+    <footer>
         <div class="copyright">
              <p>Copyright © 2021 - Brenda Elizabeth Cañas</p>
-        </div>   
+        </div>  
+        <div class="col-auto">
+            <a href="#" class="btn btn-link" style="color: tomato;"> Subir</a>
+
+        </div> 
    </footer>
-   <script src="js/jquery-3.6.0.min.js"></script>
-   <script src="js/efectos.js"></script>
-   <script src="bootstrap/css/bootstrap.min.css"></script>
+
+   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>       

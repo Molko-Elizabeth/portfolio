@@ -23,25 +23,17 @@ div.logo{
 	vertical-align: middle;
 	display: table-cell;
 
-
 }
 
-.close-mobile-menu {
-	display: none;
-	position: fixed;
-	bottom: 5vh;
-	left: 50%;
-	transform: translateX(-50%);
-	color:black;
-	background: tomato;
-	border: none;
-	font-size: 2em;
-	z-index: 1000;
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{
+	color: tomato;
+    background-color: #000 var(--bs-body-bg);
 }
 
- nav {
-	position: relative;
+.navbar-dark .navbar-toggler {
+    border-color: tomato;
 }
+/*
 .navbar-dark .navbar-nav .nav-link {
 	color: tomato;
 	background-color: black;
@@ -55,19 +47,14 @@ div.logo{
 	padding: 0;
 	display: flex;
 	list-style: none;
-}
+}*/
 
-header .menu {
-    width: 100%;
-    text-align: right;
-}
-
-header .menu a {
-	color: tomato;
-	font-size: 20px;
-	font-weight: 300;
-	display:inline-block;
-	margin: 30px 20px;
+ul.navbar-nav.me-auto{
+    color: tomato;
+	font-size: 10px;
+	/*font-weight: 300;
+	display:inline-block;*/
+	margin: 0px 10px;
 	left: 80%;
 	/*position: relative;*/
 	font-style:normal;
@@ -75,471 +62,380 @@ header .menu a {
 	font-weight: bold;
 }
 
-header .menu a:hover {
-	background-color:tomato;
-	color: black;
-	opacity: 1;
-	border-radius: 7px;
-  }
-
- 
- /* ----- ----- MAIN ----- ----- */
-
-.main .acerca-de {
-	padding: 60px;
-}
-
-.main .acerca-de .titulo {
-    padding: 45px;
-	text-align: center;
-	/*left: 0%;*/
-	background-color: tomato;
-	/*z-index: -10;*/
-	font-size: 175%;
-	/*margin-top: -400px;*/
-	font: black;
-	border-radius: 45px;
-}
-
-.main .acerca-de article p {
-	line-height: 200%;
-	background: white;
-	padding: 45px;
-    margin: 0px;
-	left: 0%;
-	text-align: center;
-	font-size: 120%;
-	margin-bottom: 15px;
-	/*z-index: -10;*/
-} 
-
-.main .Proyectos .contenedor {
-	top: 350px;
-	padding: 60px;
-}
-
-.main .Proyectos h2 {
-	padding: 45px;
-	font-size: 170%;
-	background-color: tomato;
-	/*margin-top: 400px;*/
-	text-align: center;
-	font: black;
-	border-radius: 45px;
-}
-
-.Proyectos .contenedor .cafeteria {
-    height: 400px ;
-	width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-}
-
-.Proyectos .contenedor .fotocopias {
-    height: 400px ;
-	width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-}
-
-.Contacto .contenedor{
- padding-top: 0px;
-}
-.Contacto{
-    display: grid;
-	grid-template-columns: repeat(3,10%);
-    justify-content:space-between;
-	grid-gap: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
-	align-content: center;
-	background-color: transparent;
-    padding-top: 30px;
-    /*margin: 100px;*/
-}
-
-.main .contactame .titulo {
-    font-size: 190%;
-    text-decoration: solid;
-    margin: 100px;
-    padding:30px;
-    color: tomato;
-    /*text-align: center;*/
-    margin-left: 40%;
-   /* padding-top: 100px;*/
- }
-
-/* ----- ----- FOOTER ----- ----- */
-footer {
-	background: #000;
-}
-
-footer .copyright {
-	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 100px;
-	color: tomato;
-}
-
-
-/* ----- ----- MEDIA QUERIES ----- ----- */ /*RESPONSIVE*/
-
-@media screen and (max-width: 800px) {
-
-body{
-    font-family: 'Dancing Script', 'cursive';
-    font-family: 'Pacifico','cursive';
-    font-family: 'Pangolin', 'cursive';
-	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-   /* font: tomato;*/
-    background-color: black;/*
-    font-size: 16px;*/
-	overflow: auto;
-}
-
-div.logo{
-    text-align:center;
-	/*height: 280%;
-	width: 280%;*/
-	padding: 0px;
-	border-width: 0px;
-	/*margin:0px;
-	left: 0px;
-	top: 0px;*/
-	display: table-cell;
-	vertical-align: middle;
-}
-
-header .menu {
-    width: 50%;
-}
-
-header .menu a {
-	color: tomato;
-	font-size: 15px;
-	font-weight: 50px;
-	margin: 15px 10px;
-	/*text-align: right;*/
+li.nav-item{
+	font-size: 20px;
+	font-weight: 200;
+	/*display:inline-block;*/
+	margin: 0 10px;
+	left: 80%;
+	/*position: relative;*/
+	font-style:normal;
 	text-decoration: none;
 	font-weight: bold;
-	justify-content: space-between;
-	display: block;	/*margin: 5px 0px;*/
-	
+
 }
 
-header .menu a:hover {
-	background-color:tomato;
-	color: black;
+a#btn-acerca-de{
+    color: tomato;
+    text-decoration: none;
+}
+
+a#btn-proyectos{
+    color: tomato;
+    text-decoration: none;
+}
+
+a#btn-contactame{
+    color: tomato;
+    text-decoration: none;
+}
+header .menu {
+    width: 100%;
+    text-align: right;
+}
+
+li.nav-item a:hover {
+	background-color: white;
+	/*color: whitesmoke;*/
 	opacity: 1;
-	border-radius: 7px;
+	border-radius: 9px;
   }
 
- 
- /* ----- ----- MAIN ----- ----- */
+  /* ----- ----- MAIN ----- ----- */
 
 .main .acerca-de {
-	padding: 60px;
-	margin:0;
+   padding: 80px;
 }
 
 .main .acerca-de .titulo {
-    padding: 15px;
+    padding: 30px;
 	text-align: center;
-	align-items: center;
-	/*left: 0%;*/
 	background-color: tomato;
-	/*z-index: -10;*/
-	font-size: 80%;
-	/*margin-top: -400px;*/
+	font-size: 130%;
 	font: black;
-	border-radius: 40px;
+	border-radius: 45px;
 }
+
 
 .main .acerca-de article p {
-	line-height: 170%;
+	line-height: 180%;
 	background: white;
-	padding: 10px;
+	padding: 30px;
     margin: 0px;
-	align-items: center;
 	text-align: center;
-	font-size: 80%;
-	margin-bottom: 0px;
-	/*z-index: -10;*/
+	font-size: 110%;
+	margin-bottom: 15px;
 } 
 
-.main .Proyectos .contenedor {
-	top: 300px;
-	padding: 40px;
+.main .Proyectos {
+	padding: 90px;
+	justify-content: center;
+
 }
 
+div.carousel-inner {
+	left: 5%;
+	justify-content: center;
+
+}
 .main .Proyectos h2 {
-	padding: 20px;
-	font-size: 120%;
+	padding: 30px;
+	font-size: 130%;
 	background-color: tomato;
-	/*margin-top: 400px;*/
 	text-align: center;
 	font: black;
-	border-radius: 40px;
+	border-radius: 45px;
+	margin-bottom: 15px;
 }
-
-.Proyectos .contenedor .cafeteria {
-    height: 200px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-}
-
-.Proyectos .contenedor .fotocopias {
-    height: 200px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-}
-
-#gato2 {
-	width: 15%;
-	margin: 0;
-	padding: 0;
-}
-
-div.foto3 {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-#gato3 {
-	width: 15%;
-	/*margin: auto;
-	margin: 0;
-	padding: 0;*/
-	/*box-sizing: border-box;*/
-}
-
 .Contacto .contenedor{
- padding-top: 0px;
+	padding-top: 5px;
+
+}   
+.row {
+    justify-content: center;
 }
 
-.Contacto{
-    display: grid;
-	grid-template-columns: repeat(3,10%);
-    justify-content:space-between;
-	grid-gap: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
-	align-content: center;
-	background-color: transparent;
-    padding-top: 30px;
-    /*margin: 100px;*/
+img.card-img-top  {
+  width: 75%;
+  margin-top: 20px;
 }
-
-.main .contactame .titulo {
-    font-size: 110%;
-    text-decoration: solid;
-    margin: 30px;
-    padding:20px;
-    color: tomato;
-    /*text-align: center;*/
-    margin-left: 40%;
-   /* padding-top: 100px;*/
- }
-
 /* ----- ----- FOOTER ----- ----- */
 footer {
-	background: #000;
+	   background: #000;
 }
-
+   
 footer .copyright {
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 50px;
 	color: tomato;
 }
 
-@media screen and (max-width: 480px) {
+ /* ----- ----- MEDIA QUERIES ----- ----- */ /*RESPONSIVE*/
+ 
+@media screen and (max-width: 800px) {
+ 
+	div.carousel-inner {
+		left: 7%;
+		justify-content: center;	
+	}
 
-	body{
-		font-family: 'Dancing Script', 'cursive';
-		font-family: 'Pacifico','cursive';
-		font-family: 'Pangolin', 'cursive';
-		font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-	   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	   /* font: tomato;*/
-		background-color: black;/*
-		font-size: 16px;
-		overflow: auto;*/
-		padding: 0%;
-		margin: 0;
+	.main .Proyectos {
+		padding: 32px;
+		margin-bottom: 40px;
 	}
-	div.logo{
-		text-align:center;/*
-	   width: 120%;
-		/*height: 300px;*/
-	   margin: -20px;
-	   padding: 15px;/*
-		align-items: center;
-		justify-content: center;*/
-		/*z-index: 3;*/
-	   padding: 0px;
-	   border-width: 0px;
-	   display: table-cell;
-	   vertical-align: middle;
-	   margin-top: 300px;
+	div.row {
+		justify-content: center;
+		left: 35%;
+		margin-top: 20px;
 	}
-		
-	.logo img{
-	    height: 90%;
+	img.card-img-top  {
 		width: 90%;
+		justify-content: center;
+	}
+	span.carousel-control-prev-icon {
+		justify-content: center;
+		width: 60%;
+	}
+	span.carousel-control-next-icon {
+	   width: 60%;
+	}
+	button.carousel-control-next {
+		 left: 90%;
+	}
+	button.carousel-control-prev {
+		 left: 3%;
+	}
+}  
+
+@media screen and (max-width: 480px) {
+   
+	div.logo{
+		text-align:center;
 		vertical-align: middle;
 		display: table-cell;
-		margin: 40px 25px;
+		margin-bottom: 35px;
 	}
-    header .menu {
-		/*margin: 0;
-		padding: 5;*/
-		text-align: left;
-		margin: 10px 0px;
-	}
-	
-	header .menu a {
-		color: tomato;
-		font-size: 15px;
-		display: block;	/*margin: 5px 0px;*/
-		text-align: left;
-		font-weight: bold;
-		margin: 5px 5px;
-		padding: 0;
-	}
-	
-	header .menu a:hover {
-		background-color:tomato;
-		color: black;
-		opacity: 1;
-		border-radius: 7px;
-	  }
-	
-	 /* ----- ----- MAIN ----- ----- */
-	
-	.main .acerca-de {
-		padding: 30px;
-		top: 0px;
-	}
-	
+	img {
+	  width: 70%;
+    }
+
 	.main .acerca-de .titulo {
-		padding: 15px;
-		text-align: center;
-		/*left: 0%;*/
-		background-color: tomato;
-		/*z-index: -10;*/
-		font-size: 140%;
-		/*margin-top: -400px;*/
-		font: black;
-		border-radius: 30px;
-	}
-	
-	.main .acerca-de article p {
-		line-height: 145%;
-		background: white;
 		padding: 20px;
-		margin: 0px;
-		left: 0%;
 		text-align: center;
+		background-color: tomato;
 		font-size: 110%;
-		margin-bottom: 0px;
-		/*z-index: -10;*/
-	} 
-	
-	.main .Proyectos .contenedor {
-		height: 100%;
-		top: 350px;
-		padding: 15px;
-		margin: 30px;
-	}
-	
-	.main .Proyectos h2 {
-		padding: 20px;
-		font-size: 140%;
-		background-color: tomato;
-		/*margin-top: 400px;*/
-		text-align: center;
 		font: black;
 		border-radius: 40px;
 	}
 	
-	.Proyectos .contenedor .cafeteria {
-		height: 100% ;
-		display: grid;
-		width: 110%;
-		margin: 20;
-		padding: 10;/*
-		margin: 0;
-		padding: 10;
-		vertical-align: center;*/
-	}
+	.main .acerca-de article p {
+		line-height: 160%;
+		background: white;
+		padding: 30px;
+		margin: 0px;
+		text-align: center;
+		font-size: 80%;
+		margin-bottom: 15px;
+	} 
 	
-	.Proyectos .contenedor .fotocopias {
-		height: 100% ;
-		width: 110%;
-		display: grid;
-		margin: 20;
-		padding: 10;
-		/*display: flex;
+	div.carousel-inner {
+		left: 2%;
 		justify-content: center;
-		margin: 0;
-		width: 100%;
-		padding: 0;
-		vertical-align: center;*/
+		margin-bottom: 15px;
+		margin-top: 10px;
+	}
+	.main .Proyectos h2 {
+		padding: 20px;
+		font-size: 110%;
+		background-color: tomato;
+		text-align: center;
+		font: black;
+		border-radius: 40px;
+		margin-bottom: 20px;
+	}
+	.main .Proyectos {
+		padding: 40px;
+		margin-bottom: 20px;
 	}
 
-	
-	.Contacto .contenedor{
-	 padding-top: 0px;
-	 margin: 0px;
+	img.w-90 {
+		width: 130%;
+		height: 130%;
+		padding: 5px;
+   }
+   div.carousel-indicators {
+	   left: 5%;
+	   height: 5%;
+   }
+   span.carousel-control-prev-icon {
+	   justify-content: center;
+	   width: 60%;
+   }
+
+   span.carousel-control-next-icon {
+	  width: 60%;
+    }
+
+	button.carousel-control-next {
+		left: 90%;
 	}
-	
-	.Contacto{
-		display: grid;
-		grid-template-columns: repeat(3,15%);
-		justify-content:space-between;
-		grid-gap: 5px;
-		margin-left: 5%;
-		margin-right: 10%;
-		align-content: center;
-		background-color: transparent;
-		padding-top: 30px;
-		width: 90%;
-		/*margin: 100px;*/
+
+	button.carousel-control-prev {
+		left: 0%;
 	}
-	
-	.main .contactame .titulo {
+
+	img.card-img-top  {
+		width: 100%;
+		margin-top: 20px;
+    }
+	.contactame h1 {
+		margin-top: 20px;
 		font-size: 140%;
-		text-decoration: solid;
-		margin: 60px;
-		padding:20px;
-		color: tomato;
-		text-align: left;
-		margin-left: 20%;
-		padding: 25px;
-		 
-	 }
-	
-	/* ----- ----- FOOTER ----- ----- */
-	footer {
-		background: #000;
-	}
-	
+    }
+
 	footer .copyright {
 		text-align: center;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 75px;
+		padding-bottom: 50px;
 		color: tomato;
-		font-size: 85%;
 	}
-}}
+}
+
+ @media screen and (max-width: 1440px) {
+ 
+	img.w-90 {
+		width: 90%;
+		height: 90%;
+		padding: 0px;
+   }
+   div.carousel-indicators {
+	   left: 0%;
+	   height: 5%;
+   }
+   span.carousel-control-next-icon {
+	  width: 60%;
+    }
+
+	button.carousel-control-next {
+		left: 85%;
+	}
+
+	img.card-img-top  {
+		width: 70%;
+		margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+ 
+	img.card-img-top  {
+		width: 65%;
+		margin-top: 15px;
+    }
+
+	h1.text-center {
+     font-size: 160%;
+	 text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+	.main .acerca-de {
+		padding: 35px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.main .Proyectos {
+		padding: 10px;
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+	div.carousel-inner {
+		left:5%;
+		justify-content: center;
+		margin-bottom: 30px;
+		margin-top: 10px;
+	
+	}
+
+	.contactame h1 {
+		margin-top: 20px;
+		font-size: 130%;
+    }
+    
+	div.row {
+		margin-bottom: 40px;
+    }
+
+	
+	footer .copyright {
+		font-size: 90%;
+	}
+}  	
+
+@media screen and (max-width: 320px) {
+	div.logo img {
+		margin-bottom: 65px;
+		margin-top: 60px;
+	}
+
+	.main .acerca-de {
+     padding: 25px;
+	}
+
+	h1.titulo {
+	padding: 10px;
+	}
+
+	.main .Proyectos {
+		padding: 5px;
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+	.contactame h1 {
+		margin-top: 70px;
+		font-size: 140%;
+    }
+
+	footer .copyright {
+		font-size: 80%;
+	}
+	
+}	
+
+@media screen and (max-width: 375px) {
+	div.logo img {
+		margin-bottom: 65px;
+		margin-top: 60px;
+	}
+
+	.main .acerca-de {
+     padding: 25px;
+	}
+
+	h1.titulo {
+	padding: 10px;
+	}
+
+	.main .Proyectos {
+		padding: 5px;
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+	.contactame h1 {
+		margin-top: 70px;
+		font-size: 140%;
+    }
+
+	footer .copyright {
+		font-size: 80%;
+	}
+	
+}
