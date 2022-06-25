@@ -149,15 +149,19 @@ div.carousel-inner {
 }
 .Contacto .contenedor{
 	padding-top: 5px;
+	text-align: center;
+	display: block;
 
 }   
 .row {
     justify-content: center;
+	display: block;
+	text-align: center;
 }
 
 img.card-img-top  {
   width: 75%;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 /* ----- ----- FOOTER ----- ----- */
 footer {
