@@ -147,12 +147,30 @@ div.carousel-inner {
 	border-radius: 45px;
 	margin-bottom: 15px;
 }
+/* #contacto .row{
+    margin: 0%;
+	text-align: center;
+	display: block;
+	width: 80px; }*/
+
+/* ----- ----- FOOTER ----- ----- */
+footer .social {
+	text-align:center;
+	padding: 70px 0px; }
+	footer .social a {
+	  padding: 10px 10px;
+	  display: inline-block;
+	  margin: 0px 5px;
+	  font-size: 10px;}
+/*
 .Contacto .contenedor{
 	padding-top: 5px;
 	text-align: center;
 	display: block;
-
-}   
+}  
+.row .Proyectos {
+	justify-content: center;
+}
 .row {
     justify-content: center;
 	display: block;
@@ -162,8 +180,7 @@ div.carousel-inner {
 img.card-img-top  {
   width: 75%;
   /*margin-top: 20px;*/
-}
-/* ----- ----- FOOTER ----- ----- */
+
 footer {
 	   background: #000;
 }
@@ -171,6 +188,7 @@ footer {
 footer .copyright {
 	text-align: center;
 	padding-top: 100px;
+	padding: 80px;
 	padding-bottom: 50px;
 	color: tomato;
 }
@@ -289,10 +307,17 @@ footer .copyright {
 		left: 0%;
 	}
 
-	img.card-img-top  {
-		width: 100%;
-		margin-top: 20px;
-    }
+	footer .social {
+		text-align:center;
+		padding: 60px 0px; }
+		footer .social a {
+		  padding: 10px 0px;
+		  display: inline-block;
+		  margin: 0px 5px;
+		  font-size: 10px;
+		  width: 25%;}
+
+
 	.contactame h1 {
 		margin-top: 20px;
 		font-size: 140%;
