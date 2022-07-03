@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Pangolin&display=swap" rel="stylesheet">
@@ -28,8 +29,8 @@
                  aria-controls="contenidoMenu"
                  aria-expanded="false"
                  aria-label="Mostrar/Ocultar Navegacion"
-                >
-                <span class="navbar-toggler-icon"></span>
+                 >
+                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="contenidoMenu">
                     <!--Enlaces-->
@@ -65,18 +66,18 @@
 
         <section class="Proyectos" id="proyectos">
             <h2 class="texto1" id="titulo2">Proyectos</h2>
-            <div class="row">
+            <div class="row proyectos">
                 <div class="col">
                     <div id="slideshow" class="carousel slide justify-content-center" data-bs-ride="carousel">
                         <div class="carousel-inner">
                            <div class="carousel-item active">
                                <a href="https://cafe-valentine.netlify.app" target="_blank" rel="noreferrer">
-                                  <img src="img/cafevalentina.png" class="w-90" alt="">
+                                  <img src="img/cafevalentina.png" class="w-90" alt="cafevalentina">
                                </a>   
                             </div>
                             <div class="carousel-item">
                                 <a href="https://ricopier.net" target="_blank" rel="noreferrer">
-                                    <img src="img/Ricopier.png" class="w-90" alt="">
+                                    <img src="img/Ricopier.png" class="w-90" alt="Ricopier">
                               </a>
                             </div>
                         </div>  
@@ -118,37 +119,19 @@
                </div>        
             </div>    
         </section>
-
-        <section class="contactame" id="contactame">
-            <div class="col-md-12">
-                <h1 class="text-center"style="color: tomato">¡Contactame!</h1>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 mb-2 mt-3">
-                   <div class="card" style="background-color: black;">
-                        <a href="https://github.com/Molko-Elizabeth" target="_blank" rel="noreferrer">
-                            <img class="card-img-top" src="img/github.png" alt="">
-                        </a>   
-                   </div>
-                </div>
-                <div class="col-sm-4 mb-1 mt-3">
-                    <div class="card" style="background-color: black;">
-                        <a href= "https://drive.google.com/drive/folders/1IRBZ4EFGvC5tsk3xvt4AdayYJ7LZuReW?usp=sharing" target="_blank" rel="noferrer">
-                            <img class="card-img-top" src="img/cv.png" alt="">
-                        </a>    
-                    </div>
-                </div>
-                <div class="col-sm-4 mb-1 mt-4">
-                    <div class="card" style="background-color: black;">
-                       <a href="https://www.linkedin.com/in/BrendaECanas" target="_blank" rel="noferrer">
-                          <img class="card-img-top" src="img/linkedin.png"  alt="">
-                        </a>   
-                   </div>
-                </div>
-          </div>
-        </section>
     </section>   
     <footer>
+        <div class="social">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<a class="Github" href="https://github.com/Molko-Elizabeth" target="_blank" rel="noferrer"><img src="img/github.png" width="100px"></i></a>
+						<a class="CV" href="https://drive.google.com/drive/folders/1IRBZ4EFGvC5tsk3xvt4AdayYJ7LZuReW?usp=sharing" target="_blank" rel="noferrer"><img src="img/cv.png" width="100px"></i></a>
+						<a class="Linkedin" href="https://www.linkedin.com/in/BrendaECanas" target="_blank" rel="noferrer"><img src="img/linkedin.png" width="100px"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
         <div class="copyright">
              <p>Copyright © 2021 - Brenda Elizabeth Cañas</p>
         </div>  
