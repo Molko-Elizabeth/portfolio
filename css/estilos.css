@@ -428,8 +428,10 @@ footer .copyright {
 
 @media screen and (max-width: 320px) {
 	div.logo img {
-		margin-bottom: 65px;
+		margin-bottom: 80px;
 		margin-top: 60px;
+		padding-bottom: 100px;
+		padding-top: 55px;
 	}
 
 	.main .acerca-de {
@@ -442,7 +444,7 @@ footer .copyright {
 
 	.main .Proyectos {
 		padding: 5px;
-		margin-bottom: 50px;
+		margin-bottom: 10px;
 		margin-top: 30px;
 	}
 
@@ -451,8 +453,20 @@ footer .copyright {
 		font-size: 140%;
     }
 
+	footer .social {
+		text-align:center;
+		padding: 0px 0px; }
+		footer .social a {
+		  padding: 5px 0px;
+		  display: inline-block;
+		  margin: 0px 5px;
+		  font-size: 10px;
+		  width: 25%;}
+
+
 	footer .copyright {
-		font-size: 80%;
+		font-size: 20%;
+		margin-top: 30px;
 	}
 	
 }	
