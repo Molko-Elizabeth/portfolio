@@ -436,6 +436,8 @@ footer .copyright {
 
 	.main .acerca-de {
      padding: 25px;
+	 padding-bottom: 20px;
+	 margin-bottom: 25px;
 	}
 
 	h1.titulo {
@@ -443,9 +445,10 @@ footer .copyright {
 	}
 
 	.main .Proyectos {
-		padding: 5px;
+		padding: 20px;
+		padding-top: 20px;
 		margin-bottom: 10px;
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 
 	.contactame h1 {
