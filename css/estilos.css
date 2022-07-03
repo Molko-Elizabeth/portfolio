@@ -156,7 +156,7 @@ div.carousel-inner {
 /* ----- ----- FOOTER ----- ----- */
 footer .social {
 	text-align:center;
-	padding: 70px 0px; }
+	padding: 60px 0px; }
 	footer .social a {
 	  padding: 10px 10px;
 	  display: inline-block;
@@ -188,7 +188,7 @@ footer {
 footer .copyright {
 	text-align: center;
 	padding-top: 100px;
-	padding: 80px;
+	padding: 50px;
 	padding-bottom: 50px;
 	color: tomato;
 }
