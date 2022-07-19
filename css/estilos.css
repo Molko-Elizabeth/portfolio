@@ -14,7 +14,7 @@ body{
 	text-align: var(--bs-body-text-align);
 	/* -webkit-text-size-adjust: 100%; */
 	-webkit-tap-highlight-color: transparent;
-	background-color: #000 var(--bs-body-bg);
+	/*background-color: #000 var(--bs-body-bg);
 	/*overflow: auto;*/
 }
 div.logo{
@@ -26,28 +26,13 @@ div.logo{
 }
 
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{
-	color: tomato;
+	color: rgb(108, 67, 60);
     background-color: #000 var(--bs-body-bg);
 }
 
 .navbar-dark .navbar-toggler {
-    border-color: tomato;
+	padding: 5px;
 }
-/*
-.navbar-dark .navbar-nav .nav-link {
-	color: tomato;
-	background-color: black;
-}
-.container .navbar-brand{
-	width: 120px;
-	height: 120px;
-}
-.navbar-nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-}*/
 
 ul.navbar-nav.me-auto{
     color: tomato;
@@ -55,7 +40,6 @@ ul.navbar-nav.me-auto{
 	/*font-weight: 300;
 	display:inline-block;*/
 	margin: 0px 10px;
-	left: 80%;
 	/*position: relative;*/
 	font-style:normal;
 	text-decoration: none;
@@ -77,7 +61,7 @@ li.nav-item{
 
 a#btn-acerca-de{
     color: tomato;
-    text-decoration: none;
+    text-decoration:double;
 }
 
 a#btn-proyectos{
@@ -99,53 +83,74 @@ li.nav-item a:hover {
 	/*color: whitesmoke;*/
 	opacity: 1;
 	border-radius: 9px;
+	padding: 6px;
   }
 
   /* ----- ----- MAIN ----- ----- */
 
 .main .acerca-de {
+   background-color: white;
    padding: 80px;
+   margin: 0;
 }
 
 .main .acerca-de .titulo {
     padding: 30px;
 	text-align: center;
-	background-color: tomato;
-	font-size: 130%;
-	font: black;
-	border-radius: 45px;
+	/*background-color: tomato;*/
+	font-size: 45px;
+	color: tomato;
+
+	font-weight: bold;
+	border-radius: 0px;
+	font-style: italic;
+	margin-bottom: 5px;
 }
 
+div.underline  {
+	opacity: .6;
+	margin: 0 auto;
+	width: 10%;
+	color: tomato;
+	margin-top: 0;
+}
 
 .main .acerca-de article p {
 	line-height: 180%;
-	background: white;
+	background: rgb(205, 52, 22);
+	opacity: 0.7;
 	padding: 30px;
     margin: 0px;
 	text-align: center;
 	font-size: 110%;
+	color: whitesmoke;
 	margin-bottom: 15px;
+	font-style:oblique;
 } 
 
 .main .Proyectos {
+	background-color: white;
 	padding: 90px;
 	justify-content: center;
+	margin-top: 10px;
 
 }
 
 div.carousel-inner {
-	left: 5%;
+	/*left: 5%;*/
 	justify-content: center;
 
 }
 .main .Proyectos h2 {
 	padding: 30px;
-	font-size: 130%;
-	background-color: tomato;
+	font-size: 45px;
 	text-align: center;
-	font: black;
+	color: tomato;
+	font-weight: bold;
 	border-radius: 45px;
 	margin-bottom: 15px;
+	margin-top: 40px;
+	font-style: italic;
 }
 /* #contacto .row{
     margin: 0%;
@@ -162,7 +167,17 @@ footer .social {
 	  display: inline-block;
 	  margin: 0px 5px;
 	  font-size: 10px;}
+
+h2.redes {
+  text-align: center;
+  color: tomato;
+  padding-bottom: 20px;
+  font-style: italic;
+}	  
+
 /*
+
+
 .Contacto .contenedor{
 	padding-top: 5px;
 	text-align: center;
@@ -198,7 +213,7 @@ footer .copyright {
 @media screen and (max-width: 800px) {
  
 	div.carousel-inner {
-		left: 7%;
+		left: 2%;
 		justify-content: center;	
 	}
 
@@ -243,17 +258,12 @@ footer .copyright {
     }
 
 	.main .acerca-de .titulo {
-		padding: 20px;
 		text-align: center;
-		background-color: tomato;
 		font-size: 110%;
-		font: black;
-		border-radius: 40px;
 	}
 	
 	.main .acerca-de article p {
 		line-height: 160%;
-		background: white;
 		padding: 30px;
 		margin: 0px;
 		text-align: center;
@@ -262,19 +272,16 @@ footer .copyright {
 	} 
 	
 	div.carousel-inner {
-		left: 2%;
+		text-align: center;
+		left: 4%;
 		justify-content: center;
 		margin-bottom: 15px;
 		margin-top: 10px;
 	}
 	.main .Proyectos h2 {
-		padding: 20px;
 		font-size: 110%;
-		background-color: tomato;
 		text-align: center;
-		font: black;
-		border-radius: 40px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 	.main .Proyectos {
 		padding: 40px;
@@ -287,16 +294,16 @@ footer .copyright {
 		padding: 5px;
    }
    div.carousel-indicators {
-	   left: 5%;
-	   height: 5%;
+	    left: 5%;
+	    height: 5%;
    }
    span.carousel-control-prev-icon {
 	   justify-content: center;
-	   width: 60%;
+	   width: 50%;
    }
 
    span.carousel-control-next-icon {
-	  width: 60%;
+	  width: 50%;
     }
 
 	button.carousel-control-next {
@@ -318,9 +325,9 @@ footer .copyright {
 		  width: 25%;}
 
 
-	.contactame h1 {
+	h2.redes {
 		margin-top: 20px;
-		font-size: 140%;
+		font-size: 120%;
     }
 
 	footer .copyright {
@@ -354,6 +361,11 @@ footer .copyright {
 		width: 70%;
 		margin-top: 20px;
     }
+
+	h2.redes {
+		padding-bottom: 30px;
+		text-align: center;
+	}
 }
 
 
@@ -385,7 +397,6 @@ footer .copyright {
 	}
 
 	div.carousel-inner {
-		left:5%;
 		justify-content: center;
 		margin-bottom: 5px;
 		margin-top: 10px;
@@ -424,6 +435,17 @@ footer .copyright {
 		color: tomato;
 		font-size: 60%;
 	}
+
+	.main .prooyectos {
+        margin-bottom: 10px;
+	}
+
+	.main .Proyectos h2 {
+		padding: 5px;
+		text-align: center;
+		margin-bottom: 5px;
+		margin-top: 0px;
+
 }  	
 
 @media screen and (max-width: 320px) {
@@ -502,5 +524,4 @@ footer .copyright {
 	footer .copyright {
 		font-size: 80%;
 	}
-	
-}
+}}

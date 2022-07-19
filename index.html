@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Pangolin&display=swap" rel="stylesheet">
@@ -15,10 +14,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>Brenda Elizabeth Cañas</title>
 </head>
-<div class="p-3  mb-2 bg-black !important text-"><div class="bg-dark"></div>
 <body>
     <header>
-        <div class="contenedor" style="background-color: black;">
+        <div class="contenedor" style="background-color: black">
             <nav class="navbar  navbar-expand-lg navbar-dark">   
                 <button
                  style="color: tomato;"
@@ -49,25 +47,27 @@
             </nav>
         </div>     
         <div class="logo">
+            <div class="p-3  mb-2 bg-black !important text-"><div class="bg-dark"></div>
             <img src="img/Gatologo.png" alt="logo" width="40%">
         </div>  
     </header>
     <section class="main">
         <section class="acerca-de" id="acerca-de">
-            <div class="contenedor">
-                <h1 class="titulo">Acerca de mi</h1> 
+            <div class="contenedor  col-12 text-center">
+                <div class="title_container">
+                  <h1 class="titulo">Acerca de mi</h1>
+                </div>
                 <article>
                    <p>Me llamo Brenda Elizabeth, soy Tecnica en Aduanas y Comercio Exterior, y Desarrolladora Frontend.
                    <br>Busco siempre mejorar tanto personalmente como profesionalmente, aunque eso me lleve a tomar otro camino. 
-                      <br> Es por eso que he decidio estudiar desarrollo web Frontend. ¡Un nuevo rubro para descubrir que me ha encantado!</p>
+                      <br> Es por eso que he decidido estudiar desarrollo web Frontend. ¡Un nuevo rubro para descubrir que me ha encantado!</p>
                 </article>
             </div>
         </section>
-
         <section class="Proyectos" id="proyectos">
             <h2 class="texto1" id="titulo2">Proyectos</h2>
-            <div class="row proyectos">
-                <div class="col">
+            <div class="contenedor" id="proyectos">
+                <div class="row col-12 text-center"> 
                     <div id="slideshow" class="carousel slide justify-content-center" data-bs-ride="carousel">
                         <div class="carousel-inner">
                            <div class="carousel-item active">
@@ -121,10 +121,12 @@
         </section>
     </section>   
     <footer>
+        <div class="p-3  mb-2 bg-black !important text-"><div class="bg-dark"></div>
         <div class="social">
-			<div class="container">
+			<div class="container" id="contactame">
 				<div class="row">
 					<div class="col-md-12">
+                        <h2 class="redes">Contactame</h2>
 						<a class="Github" href="https://github.com/Molko-Elizabeth" target="_blank" rel="noferrer"><img src="img/github.png" width="100px"></i></a>
 						<a class="CV" href="https://drive.google.com/drive/folders/1IRBZ4EFGvC5tsk3xvt4AdayYJ7LZuReW?usp=sharing" target="_blank" rel="noferrer"><img src="img/cv.png" width="100px"></i></a>
 						<a class="Linkedin" href="https://www.linkedin.com/in/BrendaECanas" target="_blank" rel="noferrer"><img src="img/linkedin.png" width="100px"></i></a>
